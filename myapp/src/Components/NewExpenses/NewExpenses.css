@@ -1,0 +1,35 @@
+.NewExpense {
+  background-color: rgb(31, 31, 31);
+  padding: 15px;
+  margin: 2rem auto;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.NewExpense button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid gray;
+  color: black;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+.NewExpense button:hover,
+.NewExpense button:active {
+  background-color: rgb(93, 167, 93);
+  border-color: white;
+}
+
+.NewExpense button.alternative {
+  color: purple;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.NewExpense button.alternative:hover,
+.NewExpense button.alternative:active {
+  background-color: burlywood;
+}
