@@ -1,11 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import loader from "./spinner.gif";
 
-export default class Newsitem extends Component {
-  render() {
-    let { tittle, description, imageUrl, newsUrl, author, date } = this.props;
+const Newsitem=(props)=>{
+  
+  let { tittle, description, imageUrl, newsUrl, author, date } = props;
 
     return (
+      
       <div className="my-3">
         <div className="card" style={{ boxShadow: "0px 5px 8px black" }}>
           <img
@@ -30,4 +31,5 @@ export default class Newsitem extends Component {
       </div>
     );
   }
-}
+
+  export default Newsitem;
