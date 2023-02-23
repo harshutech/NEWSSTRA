@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/NEWSSTRA/static/js/main.7d345e53.js",
+    "static/js/787.998b4c01.chunk.js": "/NEWSSTRA/static/js/787.998b4c01.chunk.js",
+    "static/media/spinner.gif": "/NEWSSTRA/static/media/spinner.103e4e5d88dc8a58057d.gif",
+    "index.html": "/NEWSSTRA/index.html",
+    "main.7d345e53.js.map": "/NEWSSTRA/static/js/main.7d345e53.js.map",
+    "787.998b4c01.chunk.js.map": "/NEWSSTRA/static/js/787.998b4c01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.7d345e53.js"
+  ]
+}
